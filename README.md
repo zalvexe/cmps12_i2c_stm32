@@ -14,6 +14,6 @@ i pushed the entire STM32 base project here so it'll be easier to use.
 Based on my result on testing this gyro,   
 1. it has bearing which you can access and use, it'll give you a very accurate result of rotation (0 to 360 degree)   
 2. i tried the gyro z by integrating its acceleration, but it'll give you some error/drifts by time    
-
+3. i give the timeout of 50 and 100 ms. well at first, i set it to ```HAL_MAX_DELAY``` which wasnt a good idea cuz it'll block your executions when i2c failed to do communication with cmps12 
 
 > fun fact: i shorted 1 cmps12 while experimenting with it:"
