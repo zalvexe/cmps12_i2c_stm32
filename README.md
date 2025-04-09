@@ -13,7 +13,7 @@ i pushed the entire STM32 base project here so it'll be easier to use.
 
 Based on my result on testing this gyro,   
 1. it has bearing which you can access and use, it'll give you a very accurate result of rotation (0 to 360 degree)   
-2. i tried the gyro z by integraling its acceleration, but it'll give you some error/drifts by time    
+2. i tried the gyro z by integrating its acceleration, but it'll give you some error/drifts by time    
 
 
 > fun fact: i shorted 1 cmps12 while experimenting with it:"
