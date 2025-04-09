@@ -1,4 +1,4 @@
-# CMPS12 I2C for STM32
+# CMPS12 I2C Library for STM32
 
 👾 i made this library last year to access a cmps12 gyro. All addresses i used are based on its [datasheet](https://www.robot-electronics.co.uk/files/cmps12.pdf)    
 
@@ -10,5 +10,10 @@ i pushed the entire STM32 base project here so it'll be easier to use.
 👾 In this project i used STM32F407VET6 with I2C3   
 
 <img src="https://github.com/user-attachments/assets/5e809354-1a5f-4f44-8543-20ca709cd8a6" width="75%">
+
+Based on my result on testing this gyro,   
+1. it has bearing which you can access and use, it'll give you a very accurate result of rotation (0 to 360 degree)   
+2. i tried the gyro z by integraling its acceleration, but it'll give you some error/drifts by time    
+
 
 > fun fact: i shorted 1 cmps12 while experimenting with it:"
