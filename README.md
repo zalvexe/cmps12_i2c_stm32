@@ -5,7 +5,7 @@
 ![image](https://github.com/user-attachments/assets/d5319268-ba6a-44fa-8c6d-03880289c292)
 
 i pushed the entire STM32 base project here so it'll be easier to use.      
-❗You can find the cmps12 source file in   ```Core/Src/cmps12_gyro.c``` and header file in ```Core/Src/cmps12_gyro.h```.
+❗You can find the cmps12 source file in   ```Core/Src/cmps12_gyro.c``` and header file in ```Core/Inc/cmps12_gyro.h```.
 
 👾 In this project i used STM32F407VET6 with I2C3   
 
